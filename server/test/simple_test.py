@@ -1,6 +1,9 @@
 import unittest
 
 
+def test_my_dummy():
+    assert 1 == 1
+
+
 class DummyTest(unittest.TestCase):
-    def test_my_dummy(self):
-        assert 1 == 1
+    pass
